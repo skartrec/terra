@@ -18,7 +18,7 @@ resource "proxmox_lxc" "flavor_medium" {
   ostype       = "ubuntu"
 
   //flavor
-  cores = 1
+  cores = 4
   memory = "4096"
   swap = "1024"
   start = true
